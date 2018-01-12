@@ -1,0 +1,6 @@
+framework module PinInputView {
+  umbrella header "PinInputView-umbrella.h"
+
+  export *
+  module * { export * }
+}

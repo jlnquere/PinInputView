@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="PinInputView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="80" translatesAutoresizingMaskIntoConstraints="NO" id="PUv-lU-vxD" customClass="PinInput" customModule="PinInputView">
+                                <rect key="frame" x="47.5" y="293.5" width="280" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="length">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLR-iB-kCY">
+                                <rect key="frame" x="165" y="40" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minimumValue="1" maximumValue="12" translatesAutoresizingMaskIntoConstraints="NO" id="UOu-WE-Qf2">
+                                <rect key="frame" x="140" y="69" width="94" height="29"/>
+                                <connections>
+                                    <action selector="digitsStepperValueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="4sF-CS-WVP"/>
+                                </connections>
+                            </stepper>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="36" minimumValue="8" maximumValue="72" stepValue="4" translatesAutoresizingMaskIntoConstraints="NO" id="tmZ-tW-oXz">
+                                <rect key="frame" x="140" y="151" width="94" height="29"/>
+                                <connections>
+                                    <action selector="fontSizeStepperValueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ZYi-Ex-jpE"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Font size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNP-h2-9Nf">
+                                <rect key="frame" x="153" y="122" width="69" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UOu-WE-Qf2" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Kdg-ei-Uf6"/>
+                            <constraint firstItem="pLR-iB-kCY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="LI1-YZ-7gg"/>
+                            <constraint firstItem="tmZ-tW-oXz" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="P4I-EC-wru"/>
+                            <constraint firstItem="pLR-iB-kCY" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="T5H-If-ESS"/>
+                            <constraint firstItem="JNP-h2-9Nf" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="VxT-77-lHN"/>
+                            <constraint firstItem="UOu-WE-Qf2" firstAttribute="top" secondItem="pLR-iB-kCY" secondAttribute="bottom" constant="8" id="Xfe-eZ-1SQ"/>
+                            <constraint firstItem="PUv-lU-vxD" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="acY-Zg-kaH"/>
+                            <constraint firstItem="PUv-lU-vxD" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="btU-mB-otN"/>
+                            <constraint firstItem="JNP-h2-9Nf" firstAttribute="top" secondItem="UOu-WE-Qf2" secondAttribute="bottom" constant="24" id="esY-Q0-96G"/>
+                            <constraint firstItem="tmZ-tW-oXz" firstAttribute="top" secondItem="JNP-h2-9Nf" secondAttribute="bottom" constant="8" id="hxK-Rh-yAx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="digitsCountLabel" destination="pLR-iB-kCY" id="Ybf-Xx-fna"/>
+                        <outlet property="digitsCountStepper" destination="UOu-WE-Qf2" id="g1b-Di-iBM"/>
+                        <outlet property="fontSizeLabel" destination="JNP-h2-9Nf" id="BIJ-Bc-XH6"/>
+                        <outlet property="fontSizeStepper" destination="tmZ-tW-oXz" id="hAp-Hf-8ad"/>
+                        <outlet property="pinInput" destination="PUv-lU-vxD" id="uxA-tB-S6w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
