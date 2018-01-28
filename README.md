@@ -107,4 +107,4 @@ Julien Quéré, [@jlnquere](http://twitter.com/jlnquere), julien@sinplicity.fr
 
 ## License
 
-PinInputView is available under the MIT license. See the LICENSE file for more info.
+PinInputView is available under the MIT license. See the [LICENSE file](https://github.com/jlnquere/PinInputView/blob/master/LICENSE) for more info.
