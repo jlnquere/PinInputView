@@ -7,61 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		057B35FA28D632B73E39B5EA16D9A2B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD1BA3F13EE532082C52082A5162913 /* Foundation.framework */; };
-		071BDCE357BDEC8B846FD61B1FAE5A60 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		057B35FA28D632B73E39B5EA16D9A2B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ABC92C4981517604AA898FCB88C9E7 /* Foundation.framework */; };
 		088B7C227CBD4D0430506D160E0914E4 /* Pods-PinInputView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 259CD49252C5D61428169C01DA0B0417 /* Pods-PinInputView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D95295451A47D6DCF51F5DE2FC6ACE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD1BA3F13EE532082C52082A5162913 /* Foundation.framework */; };
-		0E8B249CD3074E38027A217368780B03 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0D48D26F82F7721BC1C5405C803342 /* PureLayout.framework */; };
-		0F04B759C2C8763BC3B7784646967F95 /* PinInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB80AAD480AC1A4426028019461BC9 /* PinInputView.swift */; };
+		0A55B79FEB83FE554198615A6A324BD6 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C919DAEF08396AE6A6B8361A698B539 /* PinInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061C8FECDEAA479C5299C34DC65AB92 /* PinInputView.swift */; };
 		22BC64A31CE3FB99A7E964BD463AE797 /* Pods-PinInputView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8EE4F6D1946F4F1889C733900FD73B /* Pods-PinInputView_Example-dummy.m */; };
-		2DF70DF3F4CAAAFE4C085203B02F0518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD1BA3F13EE532082C52082A5162913 /* Foundation.framework */; };
-		2FEB231856B1F48C06F6B8C286408C08 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3784E60DAB7FD1AFDE8981A21B9B43FE /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		434A44B4CF2E317CCF0307E17B6701C4 /* DigitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9830C9BB0115C940BF7744E2B255F92 /* DigitView.swift */; };
-		46E5994EC1F83D65C9ECFD9DF8560431 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */; };
-		4D29959C91EB7A7EC750C02199430E21 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */; };
-		512CBFE3190A139642885CB6C381913E /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CA92A7DBEA0434464F81CA867925620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD1BA3F13EE532082C52082A5162913 /* Foundation.framework */; };
-		873B018B900D3D021672E0012D6CF4C6 /* PinInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 958E61BEAB0A9CAA1009F2041BA406D4 /* PinInputView-dummy.m */; };
-		9EADAA91F1E4CEEAA7CBEF98FD5499EE /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */; };
-		A9FED0BD307710E90F299D1076F338D2 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */; };
-		BDD81DF17367A9AC538A00285E4BF36F /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5FA36E429D49352D415F4071E3A6F2 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DF70DF3F4CAAAFE4C085203B02F0518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ABC92C4981517604AA898FCB88C9E7 /* Foundation.framework */; };
+		3EE8573A7446082D537F815B1A96507D /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57F182B4D9EE0D5CC248065B3DC711E0 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C227A3F8A9474E684841A8CAAB0099D /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7241E518741CF84CA8545884244C2108 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */; };
+		916BE0AC0DCF3AE83C6DDAC409CA5628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ABC92C4981517604AA898FCB88C9E7 /* Foundation.framework */; };
+		96F5E651CE094AA2908C3EFA8D171923 /* DigitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8F6739AE714923D9767F40A1957B6 /* DigitView.swift */; };
+		A44AE9479D529028C4A5B4ED5BEFCAD6 /* PinInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F9AC70DE47A6F09249165C566D387F /* PinInputView-dummy.m */; };
+		AB94A62B67031BC7611C2AEA8F4FBD71 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A8E6F2390013F549A6646FD4BA7E2A /* PureLayout.framework */; };
+		C23F474BB6502D9B7674650564E746B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5CF235C4CF1C73DE41993C30A232ED /* UIKit.framework */; };
+		CB7D617396F5380D365FF512B7631474 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0BE13A2D08A44280A0082F2D954CD82 /* Pods-PinInputView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98D1A3FAC4310FC1CEB4D1BB44AE5DA /* Pods-PinInputView_Tests-dummy.m */; };
-		D27AC42DFA79272E16EF88F56270060D /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAA4A003B223E2253E19E23B3D6C7A6B /* PinInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8045B206F72359BC3FE5C745658239B /* PinInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC8F761C74845AA9D1D397BADBC2722B /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA218F0CAD7177D2345DC55102B58C31 /* PinInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5A13E96F72A5F8AB8AA818347F6776 /* PinInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCCF39D67D730CECE1156B8694A43C0F /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E94E9ED4BA05A1D01482AB1FD0A8C7C2 /* Pods-PinInputView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CBB751E80292D453C05C04E649D371 /* Pods-PinInputView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F12F0D00D4B9782A443FD1FDDCD20ED8 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */; };
+		F50C1071FA417D0C89466E362985383E /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */; };
+		FA1A2F87E9BBB2F1948BA588C193EC71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ABC92C4981517604AA898FCB88C9E7 /* Foundation.framework */; };
+		FF86246BF5C3041AF1C79C668E35DC0F /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26C94CDADF7FA9A33AFDB3B6DC9A8B17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3A8E5DE601EB4CF7716040D7A4BC52F3;
-			remoteInfo = PureLayout;
-		};
 		50493037A6166EF36B03F8276E762B52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3A8E5DE601EB4CF7716040D7A4BC52F3;
+			remoteGlobalIDString = 751767DAF9108CA6D84B277975A59363;
 			remoteInfo = PureLayout;
 		};
 		CDFC530A597E91956550629FB29E3A7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C53A62F58931DC365C8E744FEBB1E70;
+			remoteGlobalIDString = E64022DB0A1414FC6A4E918644FFF582;
 			remoteInfo = PinInputView;
+		};
+		E5FD9FD2C4D0E857D584D5D7A7985936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 751767DAF9108CA6D84B277975A59363;
+			remoteInfo = PureLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
 		028CBEF83A337FBB1D3A03F4C09FAC34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C2644352DBA587C88CB14BB21899E9 /* PinInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PinInputView.modulemap; sourceTree = "<group>"; };
+		06F9AC70DE47A6F09249165C566D387F /* PinInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinInputView-dummy.m"; sourceTree = "<group>"; };
 		075A7C8638CC444C30F25D6A41048AA1 /* Pods-PinInputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinInputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		13248F4C096110ED6BA51FABDA9ADC73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D796CD3583715C86058E4ECB0A8184 /* PinInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinInputView.xcconfig; sourceTree = "<group>"; };
 		1A2511299D3DC220C1FA8CC38D57A2AC /* Pods-PinInputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinInputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B1F0A39FC47862EA6A6F52C11DD576D /* Pods-PinInputView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinInputView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D003A2A4C77DD85303F1DF0FFF0CF15 /* Pods-PinInputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinInputView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,14 +75,13 @@
 		259CD49252C5D61428169C01DA0B0417 /* Pods-PinInputView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinInputView_Example-umbrella.h"; sourceTree = "<group>"; };
 		25E4A5062A381F830E014AE6BFD74039 /* Pods_PinInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PinInputView_Example.framework; path = "Pods-PinInputView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		2D0D48D26F82F7721BC1C5405C803342 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		3019EEF7CF9A3A698F0B5E4EE2FFD289 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		352E84E8D38D0107E6DBC9E57D2104D4 /* Pods-PinInputView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PinInputView_Tests.modulemap"; sourceTree = "<group>"; };
 		3EB7C455890DF0A508CC57369216F681 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
 		43090090B13F479D977426391B2B7E88 /* Pods_PinInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PinInputView_Tests.framework; path = "Pods-PinInputView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46F01C3801C285A4E089341EA14D7BE4 /* PinInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PinInputView.modulemap; sourceTree = "<group>"; };
+		4C5A13E96F72A5F8AB8AA818347F6776 /* PinInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinInputView-umbrella.h"; sourceTree = "<group>"; };
 		5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
 		62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
 		6D8EE4F6D1946F4F1889C733900FD73B /* Pods-PinInputView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinInputView_Example-dummy.m"; sourceTree = "<group>"; };
@@ -87,27 +89,32 @@
 		6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		7DDCD20362691BCFC49267A6B9FD63AB /* Pods-PinInputView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PinInputView_Example.modulemap"; sourceTree = "<group>"; };
 		808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		80E22BEAEE0794A5A503C99C3A7DC594 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		958C0D5AD300B40E4A617181D9F3A9E0 /* Pods-PinInputView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinInputView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		958E61BEAB0A9CAA1009F2041BA406D4 /* PinInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinInputView-dummy.m"; sourceTree = "<group>"; };
+		97A8E6F2390013F549A6646FD4BA7E2A /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCE629CF94BAE21F05D6F7D688B12B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9E5CF235C4CF1C73DE41993C30A232ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A25080F408C6D1DBE65A72F30C3741F3 /* Pods-PinInputView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinInputView_Example-resources.sh"; sourceTree = "<group>"; };
 		A8F73795944A55469E5C4039EF35B880 /* Pods-PinInputView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinInputView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9FF87FC5CFC0283A759D925F0AA73E8 /* PinInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinInputView-prefix.pch"; sourceTree = "<group>"; };
 		AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
 		AD918376373C4097EF52C49ADE83C6AC /* Pods-PinInputView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinInputView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B9830C9BB0115C940BF7744E2B255F92 /* DigitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigitView.swift; path = PinInputView/Classes/DigitView.swift; sourceTree = "<group>"; };
+		B212E8C7A0CC90EEA256409AC81998CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC8F6739AE714923D9767F40A1957B6 /* DigitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigitView.swift; path = PinInputView/Classes/DigitView.swift; sourceTree = "<group>"; };
 		C0CBB751E80292D453C05C04E649D371 /* Pods-PinInputView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinInputView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C1E6B37F864BB52E8984EA4F30B854F2 /* Pods-PinInputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinInputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C8045B206F72359BC3FE5C745658239B /* PinInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinInputView-umbrella.h"; sourceTree = "<group>"; };
-		D2A73B55F439B5DBF3A963B93AE66754 /* PinInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinInputView.xcconfig; sourceTree = "<group>"; };
-		D868C5906FE1B838DD9E6CBEFF98A347 /* PinInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinInputView-prefix.pch"; sourceTree = "<group>"; };
+		D061C8FECDEAA479C5299C34DC65AB92 /* PinInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinInputView.swift; path = PinInputView/Classes/PinInputView.swift; sourceTree = "<group>"; };
+		D4ABC92C4981517604AA898FCB88C9E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
 		DC48A19E2AA264922693A9C30BC30743 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE6747879DFE4E2B960820C92A3598E4 /* Pods-PinInputView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinInputView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF997A2ABEBB6195799F52E05332BEC0 /* PinInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PinInputView.framework; path = PinInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFD1BA3F13EE532082C52082A5162913 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E1DB80AAD480AC1A4426028019461BC9 /* PinInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinInputView.swift; path = PinInputView/Classes/PinInputView.swift; sourceTree = "<group>"; };
+		E96B109A7F34906DA3FB6B6BC177A624 /* PinInputView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PinInputView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E98D1A3FAC4310FC1CEB4D1BB44AE5DA /* Pods-PinInputView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinInputView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F0A7C6F2D97FDCE866EE705B11E2171D /* demo.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = demo.gif; path = docs/demo.gif; sourceTree = "<group>"; };
 		F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		F869020531226E56E52CF332ED7441A0 /* custom_pin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = custom_pin.png; path = docs/custom_pin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,20 +126,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		427DA04F5375159915327477BE065996 /* Frameworks */ = {
+		5AAB14C2721EED38C3CBF2E9EAD3BAEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D95295451A47D6DCF51F5DE2FC6ACE0 /* Foundation.framework in Frameworks */,
-				0E8B249CD3074E38027A217368780B03 /* PureLayout.framework in Frameworks */,
+				916BE0AC0DCF3AE83C6DDAC409CA5628 /* Foundation.framework in Frameworks */,
+				AB94A62B67031BC7611C2AEA8F4FBD71 /* PureLayout.framework in Frameworks */,
+				C23F474BB6502D9B7674650564E746B7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FD99AFFB12E35E200A9A4A152EF1792 /* Frameworks */ = {
+		AA96AD6960AE643A6819084E247F700D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA92A7DBEA0434464F81CA867925620 /* Foundation.framework in Frameworks */,
+				FA1A2F87E9BBB2F1948BA588C193EC71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,21 +166,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0DC368F65375469C68E720A688762496 /* PinInputView */ = {
+		1A15693EE08133585BC3FDDFA49A06AD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B9830C9BB0115C940BF7744E2B255F92 /* DigitView.swift */,
-				E1DB80AAD480AC1A4426028019461BC9 /* PinInputView.swift */,
-				F2AFCA0A7B2E4F11FD67CAE8EF32F26D /* Support Files */,
-			);
-			name = PinInputView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2D8E3A4DAC057F65414CDCF4E187968C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DFD1BA3F13EE532082C52082A5162913 /* Foundation.framework */,
+				D4ABC92C4981517604AA898FCB88C9E7 /* Foundation.framework */,
+				9E5CF235C4CF1C73DE41993C30A232ED /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -209,6 +207,20 @@
 			path = "Target Support Files/Pods-PinInputView_Tests";
 			sourceTree = "<group>";
 		};
+		4E1FA223E1E40D7BBBCA08449A9ADA08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B212E8C7A0CC90EEA256409AC81998CD /* Info.plist */,
+				04C2644352DBA587C88CB14BB21899E9 /* PinInputView.modulemap */,
+				11D796CD3583715C86058E4ECB0A8184 /* PinInputView.xcconfig */,
+				06F9AC70DE47A6F09249165C566D387F /* PinInputView-dummy.m */,
+				A9FF87FC5CFC0283A759D925F0AA73E8 /* PinInputView-prefix.pch */,
+				4C5A13E96F72A5F8AB8AA818347F6776 /* PinInputView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PinInputView";
+			sourceTree = "<group>";
+		};
 		533CA7DDCAB92B3B9872C958F26A9DDA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,25 +230,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7B8692115B83CF0603FBB14AC029C28F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97A8E6F2390013F549A6646FD4BA7E2A /* PureLayout.framework */,
+				1A15693EE08133585BC3FDDFA49A06AD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BF73EE28AFD2CBCA7A25E49DD7FBEBC5 /* Development Pods */,
-				8D0D6CB064A91576911FCC680FC2C1D9 /* Frameworks */,
+				999D6C1B3642325BD05D7D3D84AFAE3E /* Development Pods */,
+				7B8692115B83CF0603FBB14AC029C28F /* Frameworks */,
 				A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */,
 				042BA93D03CBC54B3254EA9A891AECEB /* Products */,
 				533CA7DDCAB92B3B9872C958F26A9DDA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D0D6CB064A91576911FCC680FC2C1D9 /* Frameworks */ = {
+		978B995558954BD0E0396AC03228C6CE /* PinInputView */ = {
 			isa = PBXGroup;
 			children = (
-				2D0D48D26F82F7721BC1C5405C803342 /* PureLayout.framework */,
-				2D8E3A4DAC057F65414CDCF4E187968C /* iOS */,
+				BEC8F6739AE714923D9767F40A1957B6 /* DigitView.swift */,
+				D061C8FECDEAA479C5299C34DC65AB92 /* PinInputView.swift */,
+				A7384FF13090C045597A3B70BAD01D07 /* Pod */,
+				4E1FA223E1E40D7BBBCA08449A9ADA08 /* Support Files */,
 			);
-			name = Frameworks;
+			name = PinInputView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		999D6C1B3642325BD05D7D3D84AFAE3E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				978B995558954BD0E0396AC03228C6CE /* PinInputView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9C6F93A5AE4A9293598494393460DF93 /* PureLayout */ = {
@@ -265,12 +297,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BF73EE28AFD2CBCA7A25E49DD7FBEBC5 /* Development Pods */ = {
+		A7384FF13090C045597A3B70BAD01D07 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0DC368F65375469C68E720A688762496 /* PinInputView */,
+				F869020531226E56E52CF332ED7441A0 /* custom_pin.png */,
+				F0A7C6F2D97FDCE866EE705B11E2171D /* demo.gif */,
+				80E22BEAEE0794A5A503C99C3A7DC594 /* LICENSE */,
+				E96B109A7F34906DA3FB6B6BC177A624 /* PinInputView.podspec */,
+				9BCE629CF94BAE21F05D6F7D688B12B9 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		EEBD9B2558D5AAA68885B5204CF3FD61 /* Pods-PinInputView_Example */ = {
@@ -291,50 +327,14 @@
 			path = "Target Support Files/Pods-PinInputView_Example";
 			sourceTree = "<group>";
 		};
-		F2AFCA0A7B2E4F11FD67CAE8EF32F26D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				13248F4C096110ED6BA51FABDA9ADC73 /* Info.plist */,
-				46F01C3801C285A4E089341EA14D7BE4 /* PinInputView.modulemap */,
-				D2A73B55F439B5DBF3A963B93AE66754 /* PinInputView.xcconfig */,
-				958E61BEAB0A9CAA1009F2041BA406D4 /* PinInputView-dummy.m */,
-				D868C5906FE1B838DD9E6CBEFF98A347 /* PinInputView-prefix.pch */,
-				C8045B206F72359BC3FE5C745658239B /* PinInputView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PinInputView";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		092F63AFB0D34B4C4BECBE3971F31EE0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAA4A003B223E2253E19E23B3D6C7A6B /* PinInputView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		31D346242513B051C7CD232B0C47B2B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				088B7C227CBD4D0430506D160E0914E4 /* Pods-PinInputView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DAC0B19B2C87B7BAA235ED05E1CC36E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				512CBFE3190A139642885CB6C381913E /* ALView+PureLayout.h in Headers */,
-				D27AC42DFA79272E16EF88F56270060D /* NSArray+PureLayout.h in Headers */,
-				DC8F761C74845AA9D1D397BADBC2722B /* NSLayoutConstraint+PureLayout.h in Headers */,
-				BDD81DF17367A9AC538A00285E4BF36F /* PureLayout+Internal.h in Headers */,
-				2FEB231856B1F48C06F6B8C286408C08 /* PureLayout-umbrella.h in Headers */,
-				3784E60DAB7FD1AFDE8981A21B9B43FE /* PureLayout.h in Headers */,
-				071BDCE357BDEC8B846FD61B1FAE5A60 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,27 +346,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CCE23439E8D65C30BC9914958C757BF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA218F0CAD7177D2345DC55102B58C31 /* PinInputView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9853226DFE3B34FDD513AF287D2281 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE8573A7446082D537F815B1A96507D /* ALView+PureLayout.h in Headers */,
+				CB7D617396F5380D365FF512B7631474 /* NSArray+PureLayout.h in Headers */,
+				57F182B4D9EE0D5CC248065B3DC711E0 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				5C227A3F8A9474E684841A8CAAB0099D /* PureLayout+Internal.h in Headers */,
+				DCCF39D67D730CECE1156B8694A43C0F /* PureLayout-umbrella.h in Headers */,
+				2B5FA36E429D49352D415F4071E3A6F2 /* PureLayout.h in Headers */,
+				0A55B79FEB83FE554198615A6A324BD6 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0C53A62F58931DC365C8E744FEBB1E70 /* PinInputView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 70FFE002512CF7BEAA0242AE51298542 /* Build configuration list for PBXNativeTarget "PinInputView" */;
-			buildPhases = (
-				A55541C581A157217B1178E6695C2F4E /* Sources */,
-				427DA04F5375159915327477BE065996 /* Frameworks */,
-				092F63AFB0D34B4C4BECBE3971F31EE0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4BB63E33EBEB8870704CE6AC702B348D /* PBXTargetDependency */,
-			);
-			name = PinInputView;
-			productName = PinInputView;
-			productReference = DF997A2ABEBB6195799F52E05332BEC0 /* PinInputView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		2B881CA1028D543534A863F09E9408F8 /* Pods-PinInputView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F30D10B2705A581A30008F1F91D1F955 /* Build configuration list for PBXNativeTarget "Pods-PinInputView_Example" */;
@@ -386,13 +390,13 @@
 			productReference = 25E4A5062A381F830E014AE6BFD74039 /* Pods_PinInputView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3A8E5DE601EB4CF7716040D7A4BC52F3 /* PureLayout */ = {
+		751767DAF9108CA6D84B277975A59363 /* PureLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5027DA2096A8C075D4FB96487B7C3A35 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildConfigurationList = B4D5B614C2F962AF3823470D833BB4F4 /* Build configuration list for PBXNativeTarget "PureLayout" */;
 			buildPhases = (
-				EB90A1DF642B0BCBD5E959D0FB7C2A51 /* Sources */,
-				6FD99AFFB12E35E200A9A4A152EF1792 /* Frameworks */,
-				4DAC0B19B2C87B7BAA235ED05E1CC36E /* Headers */,
+				8EAAC74CE7B8643EC6F9F84A43800ABE /* Sources */,
+				AA96AD6960AE643A6819084E247F700D /* Frameworks */,
+				CD9853226DFE3B34FDD513AF287D2281 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -420,6 +424,24 @@
 			productReference = 43090090B13F479D977426391B2B7E88 /* Pods_PinInputView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E64022DB0A1414FC6A4E918644FFF582 /* PinInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B34E8DA68FACE634437AA62DACF0302 /* Build configuration list for PBXNativeTarget "PinInputView" */;
+			buildPhases = (
+				8A1E38FD1D2D1F96CB266144A75569F7 /* Sources */,
+				5AAB14C2721EED38C3CBF2E9EAD3BAEB /* Frameworks */,
+				CCE23439E8D65C30BC9914958C757BF0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFF9418A84BD3EF015BA326890BC7861 /* PBXTargetDependency */,
+			);
+			name = PinInputView;
+			productName = PinInputView;
+			productReference = DF997A2ABEBB6195799F52E05332BEC0 /* PinInputView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -441,30 +463,41 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C53A62F58931DC365C8E744FEBB1E70 /* PinInputView */,
+				E64022DB0A1414FC6A4E918644FFF582 /* PinInputView */,
 				2B881CA1028D543534A863F09E9408F8 /* Pods-PinInputView_Example */,
 				A597D75836100BE092334779415FB47D /* Pods-PinInputView_Tests */,
-				3A8E5DE601EB4CF7716040D7A4BC52F3 /* PureLayout */,
+				751767DAF9108CA6D84B277975A59363 /* PureLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8A1E38FD1D2D1F96CB266144A75569F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F5E651CE094AA2908C3EFA8D171923 /* DigitView.swift in Sources */,
+				A44AE9479D529028C4A5B4ED5BEFCAD6 /* PinInputView-dummy.m in Sources */,
+				1C919DAEF08396AE6A6B8361A698B539 /* PinInputView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAAC74CE7B8643EC6F9F84A43800ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF86246BF5C3041AF1C79C668E35DC0F /* ALView+PureLayout.m in Sources */,
+				F50C1071FA417D0C89466E362985383E /* NSArray+PureLayout.m in Sources */,
+				F12F0D00D4B9782A443FD1FDDCD20ED8 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				7241E518741CF84CA8545884244C2108 /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A39EDEA2427E80B2FC924BC2E6FDFA11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D0BE13A2D08A44280A0082F2D954CD82 /* Pods-PinInputView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A55541C581A157217B1178E6695C2F4E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				434A44B4CF2E317CCF0307E17B6701C4 /* DigitView.swift in Sources */,
-				873B018B900D3D021672E0012D6CF4C6 /* PinInputView-dummy.m in Sources */,
-				0F04B759C2C8763BC3B7784646967F95 /* PinInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,103 +509,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB90A1DF642B0BCBD5E959D0FB7C2A51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EADAA91F1E4CEEAA7CBEF98FD5499EE /* ALView+PureLayout.m in Sources */,
-				46E5994EC1F83D65C9ECFD9DF8560431 /* NSArray+PureLayout.m in Sources */,
-				A9FED0BD307710E90F299D1076F338D2 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				4D29959C91EB7A7EC750C02199430E21 /* PureLayout-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4BB63E33EBEB8870704CE6AC702B348D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PureLayout;
-			target = 3A8E5DE601EB4CF7716040D7A4BC52F3 /* PureLayout */;
-			targetProxy = 26C94CDADF7FA9A33AFDB3B6DC9A8B17 /* PBXContainerItemProxy */;
-		};
 		7E106CF0A6C47EC36A72F24878BF6E3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PureLayout;
-			target = 3A8E5DE601EB4CF7716040D7A4BC52F3 /* PureLayout */;
+			target = 751767DAF9108CA6D84B277975A59363 /* PureLayout */;
 			targetProxy = 50493037A6166EF36B03F8276E762B52 /* PBXContainerItemProxy */;
 		};
 		8FA3BB71A4EBA13DC84A46A5D24B2863 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PinInputView;
-			target = 0C53A62F58931DC365C8E744FEBB1E70 /* PinInputView */;
+			target = E64022DB0A1414FC6A4E918644FFF582 /* PinInputView */;
 			targetProxy = CDFC530A597E91956550629FB29E3A7D /* PBXContainerItemProxy */;
+		};
+		AFF9418A84BD3EF015BA326890BC7861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 751767DAF9108CA6D84B277975A59363 /* PureLayout */;
+			targetProxy = E5FD9FD2C4D0E857D584D5D7A7985936 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04341248F9D1BFC9C8F07357D3FC8EF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
-				PRODUCT_NAME = PureLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2A172D9B16926DCD98B38F1E99C4329F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2A73B55F439B5DBF3A963B93AE66754 /* PinInputView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PinInputView/PinInputView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PinInputView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PinInputView/PinInputView.modulemap";
-				PRODUCT_NAME = PinInputView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -630,6 +590,37 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A01C2263B7C3C7D52757229CBAC9DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D796CD3583715C86058E4ECB0A8184 /* PinInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinInputView/PinInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinInputView/PinInputView.modulemap";
+				PRODUCT_NAME = PinInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -732,38 +723,6 @@
 			};
 			name = Debug;
 		};
-		6D96230BCAFB6A0F82759FC0D3F2A800 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2A73B55F439B5DBF3A963B93AE66754 /* PinInputView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PinInputView/PinInputView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PinInputView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PinInputView/PinInputView.modulemap";
-				PRODUCT_NAME = PinInputView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -819,6 +778,38 @@
 			};
 			name = Release;
 		};
+		848DEE7322BAC259E32FFAE71B349A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D796CD3583715C86058E4ECB0A8184 /* PinInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinInputView/PinInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinInputView/PinInputView.modulemap";
+				PRODUCT_NAME = PinInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8EF87B066A77EAA9C4629C8840B1518B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D003A2A4C77DD85303F1DF0FFF0CF15 /* Pods-PinInputView_Example.release.xcconfig */;
@@ -853,7 +844,38 @@
 			};
 			name = Release;
 		};
-		93087C70F3171B92FEF00FB9C5438D73 /* Debug */ = {
+		BD8B3D0A1034FE7068E15E04BA8FC02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E797D92138125C6EFF93F5C1B55B3FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */;
 			buildSettings = {
@@ -895,20 +917,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5027DA2096A8C075D4FB96487B7C3A35 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+		7B34E8DA68FACE634437AA62DACF0302 /* Build configuration list for PBXNativeTarget "PinInputView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93087C70F3171B92FEF00FB9C5438D73 /* Debug */,
-				04341248F9D1BFC9C8F07357D3FC8EF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		70FFE002512CF7BEAA0242AE51298542 /* Build configuration list for PBXNativeTarget "PinInputView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A172D9B16926DCD98B38F1E99C4329F /* Debug */,
-				6D96230BCAFB6A0F82759FC0D3F2A800 /* Release */,
+				3A01C2263B7C3C7D52757229CBAC9DDC /* Debug */,
+				848DEE7322BAC259E32FFAE71B349A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -918,6 +931,15 @@
 			buildConfigurations = (
 				5D4D2810582EC0DC42F4D374F9564F50 /* Debug */,
 				3BBB66592F86F63BCD2B4A1F5351C7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D5B614C2F962AF3823470D833BB4F4 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E797D92138125C6EFF93F5C1B55B3FFB /* Debug */,
+				BD8B3D0A1034FE7068E15E04BA8FC02C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
